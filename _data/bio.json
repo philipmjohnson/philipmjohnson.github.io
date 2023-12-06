@@ -1,0 +1,231 @@
+{
+  "basics": {
+    "name": "Philip Johnson",
+    "label": "Professor",
+    "picture": "https://github.com/philipmjohnson/philipmjohnson.github.io/raw/main/img/pmj-headshot.png",
+    "email": "johnson@hawaii.edu",
+    "phone": "808-956-3489",
+    "website": "https://philipmjohnson.github.io",
+    "summary": "I am a Professor of <a href='https://www.ics.hawaii.edu'>Information and Computer Sciences</a> at the University of Hawaii and Director of the <a href='https://csdl.ics.hawaii.edu'>Collaborative Software Development Laboratory</a>",
+    "location": { "address": "1680 East-West Rd, POST 314E", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "philipmjohnson", "url": "http://github.com/philipmjohnson" },
+      { "network": "linkedin", "username": "philipmjohnson", "url": "http://linkedin.com/in/philipmjohnson" }
+    ]
+  },
+  "interests": [
+    { "name": "Climate Change" },
+    { "name": "Food Resiliency" },
+    { "name": "Software Engineering" },
+    { "name": "Educational Technology" }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Massachusetts, Amherst, MA",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "endDate": "1990-08-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Massachusetts, Amherst, MA",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "endDate": "1985-06-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Michigan, Ann Arbor, MI",
+      "area": "Biology, Computer Science",
+      "studyType": "B.S.",
+      "endDate": "1980-05-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+
+  "work": [
+    {
+      "company": "University of Hawaii",
+      "position": "Professor",
+      "website": "http://www.ics.hawaii.edu",
+      "startDate": "1990-08-01",
+      "endDate": "Present",
+      "summary": "Department of Information and Computer Sciences",
+      "highlights": [
+        "Professor, 2001-present",
+        "Associate Chair, 2010-2016",
+        "Director, Collaborative Software Development Laboratory, 1990-present",
+        "Associate Professor, 1995-2001",
+        "Assistant Professor, 1990-1995"
+      ]
+    },
+    {
+      "company": "Geo Garden Club",
+      "position": "Co-Founder",
+      "website": "https://geogardenclub.com",
+      "startDate": "2021-01-01",
+      "endDate": "Present",
+      "summary": "Co-founder and Chief Flutter Wrangler",
+      "highlights": []
+    },
+    {
+      "company": "Open Power Quality",
+      "position": "CEO",
+      "website": "https://openpowerquality.com",
+      "startDate": "2013-01-01",
+      "endDate": "2019-06-01",
+      "summary": "Co-founder and leader of technical development",
+      "highlights": []
+    },
+    {
+      "company": "Blekinge Institute of Technology",
+      "position": "Visiting Professor",
+      "website": "https://www.bth.se/eng",
+      "startDate": "2006-08-01",
+      "summary": "School of Engineering",
+      "highlights": []
+    },
+    {
+      "company": "University of Queensland",
+      "position": "Senior Research Fellow",
+      "startDate": "1997-05-01",
+      "summary": "Distributed Systems Technology Centre",
+      "highlights": []
+    }
+  ],
+
+  "volunteer": [
+    {
+      "position": "Editorial Boards",
+      "summary": "",
+      "highlights": [
+        "Journal of Empirical Software Engineering, 2004-2008",
+        "IEEE Transactions on Software Engineering, 2000-2004",
+        "International Journal of Computer Supported Cooperative Work, 1997-2004"
+      ]
+    },
+    {
+      "position": "Industrial Boards",
+      "summary": "",
+      "highlights": [
+        "Member, Technical Advisory Board, Sixth Sense Analytics, 2006-2009",
+        "Member, Board of Directors, Hawaii Strategic Development Corporation, 2006-2009",
+        "Member, Board of Directors, LavaNet, Inc., 2002-2005",
+        "Member, Board of Directors, High Technology Development Corporation, 2000-2004"
+      ]
+    },
+    {
+      "position": "Program Chair/Co-Chair",
+      "summary": "",
+      "highlights": [
+        "International Workshop on In-Process Software Engineering Measurement and Analysis, 2007",
+        "International Workshop on Software Engineering for High Performance Computing System Applications, 2004, 2005",
+        "International Software Engineering Research Network Annual Meeting, 2000",
+        "Software Architectures for Cooperative Systems Workshop, ACM Conference on Computer Supported Cooperative Work, 1994",
+        "CSCW Tools and Technologies Workshop, European Conference on Computer Supported Cooperative Work, 1993",
+        "CSCW Tools and Technologies Workshop, ACM Conference on Computer Supported Cooperative Work, 1992"
+      ]
+    },
+    {
+      "organization": "International Software Engineering Research Network (ISERN)",
+      "position": "Member",
+      "website": "http://isern.iese.de",
+      "startDate": "1996-05-01",
+      "endDate": "2010-06-01",
+      "summary": "",
+      "highlights": [
+        "Software metrics and software engineering behavioral research."
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "type": "grant",
+      "title": "Data in Engineering and Society: Converging Applications, Research, and Training Enhancements for Students",
+      "date": "2023-2028",
+      "awarder": "National Science Foundation",
+      "summary": "N. Santhanam, Principal Investigator; N. Tarui, P. Johnson, J. Zhang, Co-Principal Investigators. $3,000,000"
+    },
+    {
+      "type": "grant",
+      "title": "Change Hawaii: Harnessing the Data Revolution for Island Resilience",
+      "date": "2022-2027",
+      "awarder": "National Science Foundation",
+      "summary": "G. Jacobs, Principal Investigator; T. Giambelluca, P. Johnson, J. Leigh, and H. Turner, Co-Principal Investigators. $20,000,000"
+    },
+    {
+      "type": "award",
+      "title": "Board of Regents Medal for Excellence in Teaching",
+      "date": "2019",
+      "awarder": "University of Hawaii",
+      "summary": ""
+    },
+    {
+      "type": "grant",
+      "title": "Using Degree Experience Plans to Improve Engagement, Retention, and Diversity of Undergraduates in Computer Science",
+      "date": "2018-2022",
+      "awarder": "National Science Foundation",
+      "summary": "P. Johnson, Principal Investigator; Peter Leong, Seungoh Paek, Carleton Moore, Co-Principal Investigators $331,208."
+    },
+    {
+      "type": "grant",
+      "title": "Human centered information integration for the smart grid",
+      "date": "2010-2014",
+      "awarder": "National Science Foundation",
+      "summary": "P. Johnson, Principal Investigator. $413,467."
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "Beyond course work: expanding what's valued in computer science degree programs",
+      "type": "journal",
+      "author": "Seungoh Paek, Peter Leong, Philip M. Johnson, and Carleton A. Moore",
+      "publisher": "Journal of Applied Research in Higher Education",
+      "releaseDate": "September, 2020",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-08/20-08.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Design, Implementation, and Evaluation of Open Power Quality",
+      "type": "journal",
+      "author": "Anthony J. Christe, Sergey Negrashov, and Philip M. Johnson",
+      "publisher": "Energies 13(15)",
+      "releaseDate": "August, 2020",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-07/20-07.pdf",
+      "summary": ""
+    },
+    {
+      "name": "RadGrad: Removing the 'Extra' from Extracurricular to Improve Student Engagement, Retention, and Diversity",
+      "type": "conference",
+      "author": "Philip M. Johnson, Carleton A. Moore, Peter Leong, Seungoh Paek",
+      "publisher": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE 2020)",
+      "releaseDate": "March, 2020",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-04/19-04.pdf",
+      "summary": ""
+    },
+    {
+      "name": "Design and evaluation of an athletic approach to software engineering education",
+      "type": "journal",
+      "author": "Philip M. Johnson",
+      "publisher": "ACM Transactions on Computing Education",
+      "releaseDate": "August, 2019",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-03/19-03.pdf",
+      "summary": ""
+    },
+    {
+      "name": "A transient classification system implementation on an open source distributed power quality network",
+      "type": "conference",
+      "author": "Charles Dickens, Anthony J. Christe, and Philip M. Johnson",
+      "publisher": "Proceedings of the Ninth International Conference on Smart Grids, Green Communications and IT Energy-aware Technologies",
+      "releaseDate": "June, 2019",
+      "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-02/19-02.pdf",
+      "summary": ""
+    }
+  ]
+}

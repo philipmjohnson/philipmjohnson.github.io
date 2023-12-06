@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Five tips for bootstrapping a research software development team | Philip Johnson | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://philipmjohnson.github.io/img/image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Philip Johnson | Professional Portfolio">
+    <meta property="og:url" content="https://philipmjohnson.github.io/essays/five-tips-for-research-software-development.html">
+    <meta property="og:title" content="Five tips for bootstrapping a research software development team | Philip Johnson | Professional Portfolio">
+    <meta property="og:description" content="Five tips for bootstrapping a research software development team | Philip Johnson | Professional Portfolio">
+    <meta property="og:image" content="https://github.com/philipmjohnson/philipmjohnson.github.io/raw/main/img/pmj-headshot.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Five tips for bootstrapping a research software development team | Philip Johnson | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Philip Johnson</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Five tips for bootstrapping a research software development team</h1>
+  <span class="date">29 Sep 2014</span>
+  <hr>
+  <p>A junior faculty member emailed me recently with the following question:</p>
+
+<p><em>Do you have any advice on best practices for training students who are new to programming, and at the same time building a usable product? I do a lot of programming myself, but I’ve usually run as a solo operator, and I haven’t used any formal methodology — I just get an idea of the problem and gradually build up and test the pieces needed to solve it. But this project is well beyond the students’ current skill level, and we also need a way to coordinate work by a number of students. So I’m thinking I should use some (semi-?)formalized approach to break the work down into manageable pieces.</em></p>
+
+<p>After a few minutes of scribbling, I had listed almost 20 practices employed by my research group, which is way too many to implement all at once.  So here are my top five recommendations for bootstrapping a student and research-oriented software development team.</p>
+
+<p><strong>1. Use git and GitHub.</strong></p>
+
+<p>For team-based development of software of any complexity (and, by definition, research software is complex), version control is a fundamental requirement.  I’ve tried all the major version control systems and cloud-based hosting over the years, and I believe the best choice at present is git and GitHub. While I prefer development in the open, educational accounts are provided with 5 free private repos, so you can develop in stealth mode if you must.  While git and GitHub have a learning curve, I recommend you suffer through it; you will almost certainly have a net positive return on investment.</p>
+
+<p><strong>2. Two meetings a week (Mon-Thu or Tue-Fri).</strong></p>
+
+<p>The simplest way to increase development velocity by 50% is to have two meetings a week, not one.  With weekly meetings, students will typically wait at least three days before beginning work on their tasks. With two weekly meetings, they will only wait a day or so before starting work. Two meetings a week also forces you as project manager to break the work down into significantly smaller pieces, which helps everything.   If a team member can’t get to the meeting occasionally, skype meetings or google hangouts can work well.  If a student doesn’t want to meet twice a week (for whatever reason), then maybe they aren’t committed enough to be an effective member of the team. Note that it is very easy for a student to be a net negative on a project.</p>
+
+<p><strong>3. Enforce coding standards.</strong></p>
+
+<p>Creating high quality code is something you will struggle with indefinitely.   For bootstrapping, the quality assurance technique with the most bang for the buck is to enforce a coding standard.   To do this, you must specify a standard as well as a tool to find violations.  For Python, try PyLint. For Java, try Checkstyle.  For Ruby, try Rubocop.  A coding standard will catch some basic bad practices and by providing a consistent look-and-feel, will make the code significantly more maintainable and readable over time. And, it adds almost no overhead to development.</p>
+
+<p><strong>4. Write tests.</strong></p>
+
+<p>The reason to require beginning programmers to write tests is not to verify that the code works (that is typically beyond their skill level), but rather that it helps students to: (1) write APIs to allow testing, which will significantly improve the design, (2) generate executable documentation on how the code works, and (3) feel more confident about making changes, as tests will often catch regressions.</p>
+
+<p><strong>5. Eat your own dogfood.</strong></p>
+
+<p>None of the above bootstrapping tips will work well unless you are actively involved in development, writing your share of code, and practicing all of the above yourself.  If you lead by example, if you take on your own share of programming tasks at each meeting, you will help them better when they run into problems, you will be more sympathetic when they run into problems, and you will also naturally start to refine and extend these practices.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

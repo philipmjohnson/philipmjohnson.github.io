@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="TechFolio Designer | Philip Johnson | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://philipmjohnson.github.io/img/image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Philip Johnson | Professional Portfolio">
+    <meta property="og:url" content="https://philipmjohnson.github.io/projects/techfoliodesigner.html">
+    <meta property="og:title" content="TechFolio Designer | Philip Johnson | Professional Portfolio">
+    <meta property="og:description" content="TechFolio Designer | Philip Johnson | Professional Portfolio">
+    <meta property="og:image" content="https://github.com/philipmjohnson/philipmjohnson.github.io/raw/main/img/pmj-headshot.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>TechFolio Designer | Philip Johnson | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Philip Johnson</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">TechFolio Designer</h1>
+ <p>TechFolio Designer (TFD) is a cross-platform desktop application, implemented using <a href="https://electronjs.org/">Electron</a>, which is intended to simplify the management of your professional portfolios.</p>
+
+<p>Prior to the development of TFD, creating a personal TechFolio required choosing between the following:</p>
+
+<ol>
+  <li>
+    <p>Edit TechFolio files in the cloud using GitHub’s browser-based editing tools.  This requires no setup, but browser-based editing is very primitive and error-prone. In particular, it is very easy to make mistakes while editing the bio.json file.</p>
+  </li>
+  <li>
+    <p>Edit TechFolio files locally. This requires you to use a git client (so that you can download the files to edit, and upload them back to GitHub after you’ve finished), and to use an IDE to edit the files. This requires some sophistication with git as well as knowledge of an IDE. In addition, as the IDE does not “know” about the structure of TechFolio files, it is still relatively easy to make errors.</p>
+  </li>
+</ol>
+
+<p>TFD provides a third alternative, one where the desktop application builds in knowledge about TechFolio portfolios and the need to use git to host them at GitHub. This means:</p>
+
+<ul>
+  <li>
+    <p>TFD provides a simplified interface to Git and GitHub. After authenticating, TechFolio provides simple menu commands to obtain your portfolio files from GitHub for editing and to upload them back to GitHub for publication.</p>
+  </li>
+  <li>
+    <p>TFD provides editors for Projects and Essays. Since these editors are designed to be used only for TechFolio files, they can build in knowledge about Markdown and YAML front matter to prevent common problems.</p>
+  </li>
+  <li>
+    <p>TFD provides a simplified, form-driven user interface for editing the bio.json file. This ensures that the JSON file syntax is maintained.</p>
+  </li>
+</ul>
+
+<p>TFD is still under initial development, and does not yet implement all of the potentially helpful features such an application could have.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

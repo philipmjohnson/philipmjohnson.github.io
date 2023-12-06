@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Ten ways to integrate software engineering throughout the curriculum | Philip Johnson | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://philipmjohnson.github.io/img/image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Philip Johnson | Professional Portfolio">
+    <meta property="og:url" content="https://philipmjohnson.github.io/essays/ten-ways-to-integrate-software-engineering-throughout-the-curriculum.html">
+    <meta property="og:title" content="Ten ways to integrate software engineering throughout the curriculum | Philip Johnson | Professional Portfolio">
+    <meta property="og:description" content="Ten ways to integrate software engineering throughout the curriculum | Philip Johnson | Professional Portfolio">
+    <meta property="og:image" content="https://github.com/philipmjohnson/philipmjohnson.github.io/raw/main/img/pmj-headshot.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Ten ways to integrate software engineering throughout the curriculum | Philip Johnson | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Philip Johnson</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Ten ways to integrate software engineering throughout the curriculum</h1>
+  <span class="date">14 Jan 2023</span>
+  <hr>
+  <p>ICS 314, Introduction to Software Engineering, is part of the core curriculum and is a prerequisite to almost all upper division ICS courses.  However, the concepts and technologies taught in ICS 314 can easily decay or be lost altogether if students never use them after that semester.  Recent reviews of ICS have indicated that students would benefit from an increased emphasis on software engineering.</p>
+
+<p>A simple way to make software engineering a “cross-cutting concern” is to reinforce various software engineering concepts that they have already been exposed to in ICS 314.  This doesn’t require you to acquire specialized software engineering expertise or teach students new skills in software engineering.</p>
+
+<p>This essay describes several ways for instructors of upper division courses to easily integrate software engineering concepts taught in ICS 314. This should be a win-win: the students will gain deeper insight into software engineering, and you will obtain higher quality projects from the students without additional teaching.</p>
+
+<p>Here are ten recommendations. Even if you adopt just a few of them, the improvement in retention and understanding of software engineering concepts could be significant.</p>
+
+<ol>
+  <li><a href="#1-require-jetbrains-ides">Require JetBrains IDEs or VS Code</a></li>
+  <li><a href="#2-require-an-automated-coding-standard">Require an automated coding standard</a></li>
+  <li><a href="#3-require-github-for-project-repositories">Require GitHub for project repositories</a></li>
+  <li><a href="#4-require-project-documentation-and-use-github-pages">Require project documentation, and use GitHub Pages</a></li>
+  <li><a href="#5-require-team-projects-to-use-the-idpm-agile-development-process">Require team projects to use the IDPM agile development process</a></li>
+  <li><a href="#6-teach-ethical-implications-of-your-course-topic">Teach ethical implications of your course topic</a></li>
+  <li><a href="#7-require-updates-to-their-professional-portfolio">Require updates to their professional portfolio</a></li>
+  <li><a href="#8-require-user-feedback-andor-testing">Require user feedback and/or testing</a></li>
+  <li><a href="#9-require-a-database-if-appropriate">Require a database if appropriate</a></li>
+  <li><a href="#10-deliver-application-functionality-as-a-cloud-based-service">Deliver application functionality as a cloud-based service</a></li>
+</ol>
+
+<h2 id="1-require-jetbrains-ides-or-vs-code">1. Require JetBrains IDEs (or VS Code)</h2>
+
+<p>I have used and taught a great many different integrated development environments throughout the years.  Currently, I require ICS 314 students to learn and use the JetBrains IDE for Javascript, known as <a href="https://www.jetbrains.com/webstorm/">WebStorm</a>. Using the same basic platform, JetBrains also provides <a href="https://www.jetbrains.com/idea/">Idea</a> for Java, <a href="https://www.jetbrains.com/pycharm/">PyCharm</a> for Python, and <a href="https://www.jetbrains.com/clion/">CLion</a> for C and C++.  The JetBrains family of IDEs are currently best-in-class for these languages, with superior syntax-aware editing, a fantastic debugger/inspector, arguably the best automated refactoring technology, and a vast plugin ecosystem.</p>
+
+<p>JetBrains IDEs are generally acknowledged as superior to Eclipse, NetBeans, Atom, etc. The universally cited downside is that JetBrains products are subscription-based: licenses normally cost about $200/year. Fortunately, this is a non-issue for us: JetBrains provides a <a href="https://www.jetbrains.com/student/">free academic license to students and instructors</a>.  All of your students, having been through ICS 314, already have this license in effect and can use any JetBrains IDE. (Parenthetically, the JetBrains business model <a href="https://twitter.com/chetanp/status/1205907182396395525">appears to be working</a>.)</p>
+
+<p>A reasonable alternative to the JetBrains family of IDEs is Microsoft’s <a href="https://code.visualstudio.com/">Visual Studio Code</a>. VSCode is free, open source, and a better choice if you are doing Microsoft (.NET and/or C#) development. Most comparisons of the two environments result in JetBrains coming out slightly on top, with VS Code close behind.</p>
+
+<p>From a software engineering perspective, I do not believe it is in the best interest of the students to let them “use whatever IDE they want”.  The IDE is, for a software engineer, analogous to the set of knives used by a chef: in both cases the tool is the most direct connection between the professional and their work product, and thus has a disproportionate impact on the quality and productivity of their work. The KCC culinary program does not let students use “whatever knives they want”; they require students to buy and use knives they have chosen as appropriate for a professional in training.</p>
+
+<p>If you decide to require them to use a different IDE, be sure that the benefits of that IDE outweigh the time that will be lost as they come up to speed using it.  It might be more efficient for them to increase their facility with JetBrains as applied to the material in your course.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>Tell your students that they are required to use the appropriate JetBrains IDE (or VS Code) for software development. Explain the advantages of using your chosen IDE over the alternatives, and that they can help each other better if they all use the same IDE. Periodically check during in-class development periods to see that they are using the required IDE, and use it yourself for in-class demos.</p>
+
+<p>If a student has forgotten about JetBrains, refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/development-environments/">ICS 314 Development Environments module</a>.</p>
+
+<h2 id="2-require-an-automated-coding-standard">2. Require an automated coding standard</h2>
+
+<p>Most language communities have developed one or more coding standard tools that can automatically enforce various best practices for development: Java has <a href="https://pmd.github.io/">PMD</a>, Python has <a href="http://pylint.pycqa.org/en/latest/">PyLint</a>, Javascript has <a href="https://eslint.org/">ESLint</a>, and C/C++ has <a href="http://cppcheck.sourceforge.net/">CppCheck</a>.</p>
+
+<p>Modern coding standard tools have gone way beyond surface syntax checking. For example, ESLint can detect situations in which you should use more modern constructs (i.e. the use of <code class="language-plaintext highlighter-rouge">let</code> or <code class="language-plaintext highlighter-rouge">const</code> rather than <code class="language-plaintext highlighter-rouge">var</code>). As would be expected, JetBrains has excellent integrated support for automated coding standards:</p>
+
+<figure>
+<img class="img-fluid" src="/img/ten-ways-eslint-example.png" />
+<figcaption style="text-align: center">JetBrains IDE revealing an ESLint error</figcaption>
+</figure>
+
+<p>Good coding standards do more than improve the quality of code: they actually help novices learn the language. When I learned Javascript, ESLint taught me a lot about best practices.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>Decide on the tool to use, and then create a rules file that configures it to check for the specific coding standards you wish to enforce in the course.  In 314, for example, I use a modification of the <a href="https://www.npmjs.com/package/eslint-config-airbnb">AirBnB Javascript Coding Standards</a>.  Show your students how to use the tool with your ruleset, and impose an appropriate grade deduction for code that is turned in with violations.  All coding standard tools have a command line interface, so it is easy to check student code against your class standard.</p>
+
+<p>If a student has forgotten about coding standards, refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/coding-standards/">ICS 314 Coding Standards module</a>.</p>
+
+<h2 id="3-require-github-for-project-repositories">3. Require GitHub for project repositories</h2>
+
+<p>Several of the software engineering practices I teach in 314 (and recommend below) require the use of <a href="https://github.com/">GitHub</a>. Requiring students to use GitHub provides them with a cloud-based backup service for their code. It supports collaboration and team-based development. Finally, it provides public access to their work products. GitHub is good for them, because the more high quality code they can show future employers that they’ve written, the more professionally attractive they become.  GitHub is good for you, because you can encourage them to develop high quality projects not just so they get a good grade in your class, but also so that they have something interesting to show future employers.</p>
+
+<p>Note that GitHub has a <a href="https://education.github.com/pack">student developer pack</a>, which all ICS 314 students have been awarded. This comes with several dozen free developer services of potential benefit to your course.</p>
+
+<figure>
+<img class="img-fluid" src="/img/ten-ways-student-developer-pack.png" />
+<figcaption style="text-align: center">A sample of benefits from the GitHub Student Developer Pack</figcaption>
+</figure>
+
+<p><strong>How to do it:</strong></p>
+
+<p>Tell your students to submit their projects to you via a URL to a GitHub repository. Tell them that the project(s) they create in this course will improve their professional marketability (and of course make sure that this is true!) Utilize free services from the student developer pack if appropriate.</p>
+
+<p>If a student has forgotten about GitHub, refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/configuration-management/">ICS 314 Configuration Management module</a></p>
+
+<h2 id="4-require-project-documentation-and-use-github-pages">4. Require project documentation, and use GitHub Pages</h2>
+
+<p><a href="https://pages.github.com/">GitHub Pages</a> is a free service that makes it easy for students to create public documentation about their projects as part of their repository, and then render it with a choice of various HTML themes. In ICS 314, students learn what is appropriate to include in project documentation, such as an overview of the problem the application is intended to address, a user guide showing screenshots of each page and functionality in the system, a developer guide explaining how to download, install, and run the system, results from any user feedback on the system, the development history of the system, and how to contact the developers. They also learn how to format and publish this information using GitHub Pages.</p>
+
+<p>For example, here is the first section of the project documentation for an ICS 314 final project called Studious Manoa, available at <a href="https://studious-manoa.github.io/">https://studious-manoa.github.io/</a>:</p>
+
+<figure>
+<img class="img-fluid" src="/img/ten-ways-studious-manoa.png" />
+<figcaption style="text-align: center">First section of the Studious Manoa project home page</figcaption>
+</figure>
+
+<p>Part of the benefit of using GitHub Pages is that the documentation source files are stored along with the source code for the project in a single repository, making it more straightforward to keep the documentation in sync with the system.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>Tell your students that they need to provide comprehensive documentation on their project, and that this documentation should be published using GitHub Pages. Tell them that the ability to produce project documentation is an important skill, and that a high quality example can be of value to them professionally.</p>
+
+<p>If a student has forgotten what is involved in project documentation, refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/project-management/">ICS 314 Agile Project Management module</a>.</p>
+
+<h2 id="5-require-team-projects-to-use-the-idpm-agile-development-process">5. Require team projects to use the IDPM agile development process</h2>
+
+<p>In their final essays on what they found most valuable about ICS 314 with respect to software engineering, the most common answer was learning how to manage team-based work using Issue Driven Project Management (IDPM).  Issue Driven Project Management is an agile software development process I designed specifically for undergraduate team-based software development in a classroom setting using GitHub. In a nutshell, IDPM consists of the following:</p>
+
+<ol>
+  <li>Students organize project work as a sequence of milestones.</li>
+  <li>Within each milestone, work is organized as a set of tasks.</li>
+  <li>Tasks should require no more than 3-4 days to finish.</li>
+  <li>Each task is the responsibility of a single team member.</li>
+  <li>Each task is documented and tracked using a <a href="https://help.github.com/en/github/managing-your-work-on-github/about-issues">GitHub Issue</a>.</li>
+  <li>Work for each task is carried out in a branch called Issue-XX, where XX is the Issue number.</li>
+  <li>Progress on the tasks associated with each milestone is represented using a <a href="https://help.github.com/en/github/managing-your-work-on-github/about-project-boards">GitHub Project Board</a> with the “automated Kanban setting”, which establishes three states: To Do, In Progress, and Done.</li>
+  <li>When a Task is completed, the associated GitHub Issue is closed, and the issue is (automatically) moved to the Done column in the Project Board.  The team member must now merge the branch containing the work for that issue into the Master branch.</li>
+  <li>At all times, each team member is working on exactly one task (i.e. each team member has one In Progress task).</li>
+  <li>At all times, there is at least one Task in the To Do state per team member. This means that when a team member finishes their current Task, they can immediately assign themselves their next Task by picking one from the To Do column. There is no need for a meeting.</li>
+  <li>There is no need to plan out further than 1 week. Teams must meet face-to-face at least once a week, at which point they add new Tasks and/or revise existing uncompleted Tasks to reflect the current state of development.</li>
+  <li>Development is “time-boxed”: when the Milestone due date occurs, the contents of the Master branch becomes the deliverable for the Milestone. Any In progress and To Do issues are moved to a new Project Board created to track progress on the next Milestone. The “Done” column of the Project Board for the current milestone provides a record of what was accomplished during that milestone, and who did what.</li>
+</ol>
+
+<p>Here is a screenshot of a Project Board for Milestone 3 of the Bowfolios project, which illustrates various aspects of IDPM. (This project has only a single developer, me!):</p>
+
+<figure>
+<img class="img-fluid" src="/img/ten-ways-idpm.png" />
+<figcaption style="text-align: center">Project Board for Milestone 3 of Bowfolios project</figcaption>
+</figure>
+
+<p>Students comment that prior to ICS 314 and IDPM, they had no effective, structured way to work with others that: (a) allowed for incremental, just-in-time planning; (b) enabled clear assignment of tasks and accountability; (c) facilitated concurrent development (through use of Git branching and merging); (d) made the status of development visible and clear (through Project Boards); and (e) provided a realistic  definition of “deliverable” for each intermediate Milestone due date.  Some claimed they would never have completed their team projects without IDPM.</p>
+
+<p>Note that IDPM is useful to you as an instructor, as it makes visible the organization of each team’s development process, what they are planning to do, what each member is currently (supposed to be) working on, and some insight into what each member has accomplished.  IDPM makes it painfully obvious, both to you and to the team, when a team member is not contributing anything.</p>
+
+<p>All that said, IDPM is a nontrivial process, and not all students may feel competent with it after just a single exposure in 314.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>Implementing IDPM in your class will likely require some preparation on your part if you are not comfortable with GitHub Issues, branching and merging, and Project Boards.  You might want to start by perusing the Readings section of the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/project-management/">ICS 314 Agile Project Management module</a>. My <a href="http://courses.ics.hawaii.edu/ReviewICS314/morea/project-management/reading-screencast-idpm.html">14 minute screencast</a> introducing IDPM might be helpful.</p>
+
+<p>Next, you’ll need to structure your final project such that students are organized into teams, and are required to deliver at least one intermediate and one final Milestone. Tell them they will need to use IDPM to manage their project, and that you will be using their Project Boards to gain insight into their development process.</p>
+
+<p>Many students might feel “rusty” with IDPM if it has been a while since they’ve used it. That’s to be expected: simply refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/project-management/">ICS 314 Agile Project Management module</a> to refresh their memory.</p>
+
+<h2 id="6-teach-ethical-implications-of-your-course-topic">6. Teach ethical implications of your course topic</h2>
+
+<p>In student reviews of ICS 314, they frequently cite the material in the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/ethics/">ICS 314 Ethics module</a> as one of their most important learnings related to software engineering. This is very encouraging!</p>
+
+<p>From this feedback, I infer that students will be receptive and interested in the ethical implications of other computer science topics beyond software engineering, and so you might want to consider integrating the ethical issues associated with your course topic into your syllabus.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>You can review the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/ethics/">ICS 314 Ethics module</a> for ideas.  Of particular interest might be the seven “Foundation” readings (which are adapted with permission from a module by Shannon Valor and Arvind Narayanan at Santa Clara University), as well as the <a href="https://www.acm.org/code-of-ethics">ACM Code of Ethics</a>.</p>
+
+<p>In ICS 314, I have students do a set of readings on a topic (in one semester, it was about Facebook and data privacy), and then split into teams to debate the pro and con of a question (for example, “Am I ethically obligated to delete my Facebook account?”).  Assertions either pro or con should be backed up by reference to the Code of Ethics.  This format worked quite well and most students seemed to gain new insights into ethics as a result.</p>
+
+<h2 id="7-require-updates-to-their-professional-portfolio">7. Require updates to their professional portfolio</h2>
+
+<p>All students in ICS 314 are required to create a professional portfolio using <a href="http://techfolios.github.io/">TechFolios</a>. One advantage of TechFolios is that it becomes straightforward to implement a script to aggregate together ICS student portfolios into a single site, which I’ve done and the results of which are available at <a href="https://ics-portfolios.github.io/undergrads/">https://ics-portfolios.github.io/undergrads/</a>.</p>
+
+<p>For students, professional portfolios have many advantages, including:</p>
+
+<ul>
+  <li>It provides more detail about professional skills than a resume or LinkedIn profile.</li>
+  <li>It is seen as a positive distinguishing characteristic for job applicants by many recruiters.</li>
+  <li>It helps students identify their strengths and weaknesses.</li>
+</ul>
+
+<p>On the last day of ICS 314, I encourage students to think about all of their future ICS classes in terms of “what will this course enable me to add to my professional portfolio?”  There are two general answers:</p>
+
+<ol>
+  <li>The additional of one or more essays on a technical topic.</li>
+  <li>The addition of one or more project pages, each of which overviews a project done during the course and the professional skills that the student acquired through that work. It also provides a link to the GitHub repository containing the code developed for the project.</li>
+</ol>
+
+<p>One way to help our students is to design your courses such that there is an “outcome” appropriate for inclusion in their professional portfolio, and then help them to make a high quality addition to their portfolio regarding this outcome. This has implications beyond software engineering.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>If your course involves the writing of a paper, then require them to submit that paper to you as a link to an essay in their professional portfolio.  Note that you may need to stress that this outcome should be written for a general audience, not just for the professor, and should not assume prior knowledge about the class.  (In my experience, these criteria usually increases the quality of the paper.)</p>
+
+<p>If your course involves the development of a project, then require them to submit their project to you as a link to a project page in their professional portfolio. Once again, you may need to stress that the documentation should be designed for a general audience, not just for you or for fellow class members.</p>
+
+<p>If a student has forgotten about professional portfolios, you can refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/professional-persona/">ICS 314 Professional Persona module</a>.</p>
+
+<h2 id="8-require-user-feedback-andor-testing">8. Require user feedback and/or testing</h2>
+
+<p>If your course involves application development for users, it is a game changer for students to actually hear what real users say about their system. Even if there aren’t “users”, the development of tests is a significant quality assurance process.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>The technology for testing and user experience assessment can be quite contextual.  You will likely need to develop this material yourself. That said, you might find the ICS 314 modules on <a href="http://courses.ics.hawaii.edu/ics314s21/modules/testing/">testing</a> and <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/usability-evaluation/">usability evaluation</a> to be of use.</p>
+
+<h2 id="9-require-a-database-if-appropriate">9. Require a database if appropriate</h2>
+
+<p>Don’t be afraid to require your students to design and implement a database as part of their project.  In ICS 314, almost none of the students had any prior experience with databases, and I provided a reasonable overview in a <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/mongo/">one week module on MongoDB</a>.</p>
+
+<p>Hopefully, your situation will be better: by the time they have taken your course, they might have completed ICS 321, and will have much more facility with databases.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>Do not be dissuaded from requiring a database just because some students have not taken ICS 321.  As long as they have taken ICS 314, they are able to create databases.</p>
+
+<p>If a student has forgotten how to create a database, you can refer them to the <a href="http://courses.ics.hawaii.edu/ReviewICS314/modules/mongo/">ICS 314 module on databases</a>, which presents basic concepts of MongoDB databases.</p>
+
+<h2 id="10-deliver-application-functionality-as-a-cloud-based-service">10. Deliver application functionality as a cloud-based service</h2>
+
+<p>ICS 314 teaches students how to create and manage <a href="https://www.digitalocean.com/products/droplets/">Digital Ocean droplets</a>, which are very cheap ($5/month) virtual machines. In 314, these droplets are used to host a Meteor-based web application, but your course could use this skill for other purposes: for example, a web application built using some other tech stack, an online API providing a service or data collection endpoint, or any other application that benefits from online availability of cloud-based compute and storage resources.</p>
+
+<p><strong>How to do it:</strong></p>
+
+<p>If the student has forgotten how to use Digital Ocean droplets, you can refer them to the <a href="http://courses.ics.hawaii.edu/ics314s21/modules/deployment/">ICS 314 module on deployment</a>, which explains how to set up a droplet, how to provide it with a custom domain name (bought through a service like NameCheap), and how to set up HTTPS encryption.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
