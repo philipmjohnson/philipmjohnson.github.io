@@ -6,7 +6,7 @@
     "email": "johnson@hawaii.edu",
     "phone": "808-956-3489",
     "website": "https://philipmjohnson.github.io",
-    "summary": "I am a Professor of <a href='https://www.ics.hawaii.edu'>Information and Computer Sciences</a> at the University of Hawaii and Director of the <a href='https://csdl.ics.hawaii.edu'>Collaborative Software Development Laboratory</a>",
+    "summary": "I am a retired Professor of <a href='https://www.ics.hawaii.edu'>Information and Computer Sciences</a> at the University of Hawaii where I was Director of the <a href='https://csdl.ics.hawaii.edu'>Collaborative Software Development Laboratory</a>. I am currently a software developer at <a href='https://geogardenclub.com'>GeoGardenClub</a>.",
     "location": { "address": "1680 East-West Rd, POST 314E", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "philipmjohnson", "url": "http://github.com/philipmjohnson" },
@@ -49,29 +49,30 @@
 
   "work": [
     {
-      "company": "University of Hawaii",
-      "position": "Professor",
-      "website": "http://www.ics.hawaii.edu",
-      "startDate": "1990-08-01",
-      "endDate": "Present",
-      "summary": "Department of Information and Computer Sciences",
-      "highlights": [
-        "Professor, 2001-present",
-        "Associate Chair, 2010-2016",
-        "Director, Collaborative Software Development Laboratory, 1990-present",
-        "Associate Professor, 1995-2001",
-        "Assistant Professor, 1990-1995"
-      ]
-    },
-    {
       "company": "Geo Garden Club",
-      "position": "Co-Founder",
+      "position": "Software Developer",
       "website": "https://geogardenclub.com",
       "startDate": "2021-01-01",
       "endDate": "Present",
       "summary": "Co-founder and Chief Flutter Wrangler",
       "highlights": []
     },
+    {
+      "company": "University of Hawaii",
+      "position": "Professor",
+      "website": "http://www.ics.hawaii.edu",
+      "startDate": "1990-08-01",
+      "endDate": "2024",
+      "summary": "Department of Information and Computer Sciences",
+      "highlights": [
+        "Professor, 2001-2024",
+        "Associate Chair, 2010-2016",
+        "Director, Collaborative Software Development Laboratory, 1990-present",
+        "Associate Professor, 1995-2001",
+        "Assistant Professor, 1990-1995"
+      ]
+    },
+
     {
       "company": "Open Power Quality",
       "position": "CEO",

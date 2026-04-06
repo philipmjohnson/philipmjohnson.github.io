@@ -4,7 +4,7 @@ type: project
 published: true
 image:  img/change-hi.png
 title: "Change Hawaii: Harnessing the Data Revolution for Island Resilience"
-date: 2022 - present
+date: 2022 - 2024
 labels:
   - Climate Change
   - Data Science
